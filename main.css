@@ -1,0 +1,57 @@
+/*********NAVIGATION********/
+nav {
+	background-color: #558C89;
+	border: 2px solid #3B3738;
+}
+ul {
+	display: flex;
+	font-size: 25px;
+	color: #ECECEA;
+}
+ul li {
+	list-style-type: none;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.panic {
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.panic:hover {}
+
+/*When the user hovers over one of the links, 
+the color of the text should change.*/
+.rebel {
+	flex-direction: row;
+	justify-content: space-between;
+}
+.rebel:hover{}
+
+/*When the user hovers over one of the links, the 
+background color of the element that contains the link 
+should change.*/
+.liquor {
+	flex-direction: row;
+	justify-content: space-between;
+}
+.liquor:active{}
+
+/*When the user clicks on one of the links, the element 
+that contains the link should grow in size by 5px on 
+the left and right.*/
+/************BODY************/
+
+body{
+	background-color: #ECECEA;
+}
+
+
+
+/************FOOTER**********/
+#fin{
+	background-color: #ECECEA;
+	text-align: center;
+	font-size: 30px;
+}
