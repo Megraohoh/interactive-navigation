@@ -11,7 +11,8 @@ ul {
 ul li {
 	list-style-type: none;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
+	margin-left: 10%;
 }
 
 .panic {
@@ -19,34 +20,31 @@ ul li {
 	justify-content: space-between;
 
 }
-.panic:hover {}
+.panic:hover {
+	color: #000;
+}
 
-/*When the user hovers over one of the links, 
-the color of the text should change.*/
 .rebel {
 	flex-direction: row;
 	justify-content: space-between;
 }
-.rebel:hover{}
+.rebel:hover{
+	background-color: red;
+}
 
-/*When the user hovers over one of the links, the 
-background color of the element that contains the link 
-should change.*/
 .liquor {
 	flex-direction: row;
 	justify-content: space-between;
 }
-.liquor:active{}
+.liquor:active{
+	font-size: 35px;
+}
 
-/*When the user clicks on one of the links, the element 
-that contains the link should grow in size by 5px on 
-the left and right.*/
 /************BODY************/
 
 body{
 	background-color: #ECECEA;
 }
-
 
 
 /************FOOTER**********/
